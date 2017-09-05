@@ -312,7 +312,7 @@ public function index(){
     			
     			$resultado=$sesiones->Insert();
     			
-    		    $this->view("Bienvenida",array(
+    		    $this->view("BienvenidaLateral",array(
     				"allusers"=>$_usuario
 	    		));
     		}
